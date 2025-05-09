@@ -1,0 +1,29 @@
+{
+  "name": "covergoproject",
+  "version": "1.0.0",
+  "description": "List of test cases ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murari001/covergo.git"
+  },
+  "keywords": [
+    "murari"
+  ],
+  "author": "murari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/murari001/covergo/issues"
+  },
+  "homepage": "https://github.com/murari001/covergo#readme",
+  "dependencies": {
+    "axe-playwright": "^2.1.0",
+    "playwright": "^1.52.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0"
+  }
+}
